@@ -1,0 +1,121 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(18, 14, 59);
+
+}
+
+nav ul {
+    display: flex;nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 70px;
+        background-color: rgb(18, 14, 59);
+    
+    }
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+nav ul li a:hover{
+    color: rgb(33, 180, 89);
+    font-size: 1.4rem;
+
+}
+
+body {
+    background-color: rgb(15 17 48);
+    color: rgb(255, 255, 255);
+}
+
+nav div {
+    font-size: large;
+}
+
+.left {
+    font-size: 2rem;
+
+}
+nav ul ol a{
+    text-decoration: none;
+    color: white;
+    
+}
+nav ul ol a:hover{
+    color: rgb(107, 107, 185);
+    font-size: 1.1;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+.firstsection > div{
+    width: 30%;
+}
+.secondsection{
+    max-width: 80vw;
+    margin:auto ;
+    height: 80vh;
+
+}
+.secondsection h1{
+    font-size: 1.9rem;
+}
+.secondsection .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondsection .vertical{
+    background-color: white;
+    width: 1px;
+    height: 93px;
+    margin: 0 100px;
+}
+.imagetop{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.leftsection{
+    width: 34px;
+    font-size: 3rem;
+}
+.rightsection{
+    width: 44%;
+
+}
+.name{
+    color: rgb(112, 112, 177);
+}
+.textgray{
+    color: rgb(112, 112, 177);
+    margin: 70px;
+}
+.rightsection img{
+    width: 80%;
+    margin: 50px 0;
+    height: auto;
+}
+#element{
+    color: rgb(112, 112, 177);
+}
+hr{
+    background-color: rgb(112, 112, 177);
+    margin: 80px;
+}
